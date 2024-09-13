@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Borda à Foto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Adicionar Borda à Foto</h1>
+    <input type="file" id="upload" accept="image/*">
+    <select id="borderPattern">
+        <option value="none">Nenhuma Borda</option>
+        <option value="solid">Sólida</option>
+        <option value="dotted">Pontilhada</option>
+        <option value="dashed">Tracejada</option>
+        <!-- Adicione mais padrões conforme necessário -->
+    </select>
+    <canvas id="canvas"></canvas>
+    <button id="download">Baixar Imagem</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
